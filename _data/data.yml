@@ -1,0 +1,93 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    position: left # position of the sidebar : left or right
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Name
+    tagline: 직업명
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: email
+    phone: 010-0000-0000
+    timezone: Asia/Seoul Timezone
+    citizenship:
+    website: website
+    linkedin: linkedin
+    stack-overflow-id: id 
+    stack-overflow-name: name # if it is blank, show id
+    github: github
+
+    interests:
+      title: Skills
+      info:
+        - item: skill
+
+        - item: skill
+
+        - item: skill
+
+        - item: skill
+
+        - item: skill
+
+career-profile:
+    title: Profile
+    summary: |
+      안녕하세요. 안녕하세요. 안녕하세요. 안녕하세요. 안녕하세요. 안녕하세요. 
+      안녕하세요. 안녕하세요. 안녕하세요. 안녕하세요. 
+
+education:
+    title: Education
+    info:
+      - degree: degree
+        university: university
+        time: time
+        details: |
+          안녕하세요.  
+          안녕하세요. 
+      - degree: degree
+        university: university
+        time: time
+        details: |
+          안녕하세요.  
+          안녕하세요. 
+
+experiences:
+    title: Experiences
+    info:
+      - role: role
+        time: time
+        company: company
+        details: |
+            - 안녕하세요
+            - 안녕하세요
+            - 안녕하세요
+      - role: role
+        time: time
+        company: company
+        details: |
+            - 안녕하세요
+
+certifications:
+      title: Certifications
+      list:
+        - name: name
+          start: start
+          organization: organization
+          credentialid: credentialid
+
+projects:
+    title: Projects
+    # intro: >
+    #   You can list your side projects in this
+    #   section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: title
+        tagline: "안녕하세요."
